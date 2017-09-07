@@ -26,5 +26,10 @@ namespace Tournament.Crossover.Controllers
 
             return View();
         }
+
+        public ActionResult GetAllCustomers()
+        {
+            return View();
+        }
     }
 }
