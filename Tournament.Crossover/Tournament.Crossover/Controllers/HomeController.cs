@@ -35,6 +35,7 @@ namespace Tournament.Crossover.Controllers
         [Authorize]
         public string GetAllDnn9019Method()
         {
+            var metod = "push again";
             return "Hello from GetAllDnn9019Method method";
 
         }
