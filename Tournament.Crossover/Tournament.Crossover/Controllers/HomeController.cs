@@ -31,5 +31,13 @@ namespace Tournament.Crossover.Controllers
         {
             return View();
         }
+
+        [Authorize]
+        public string GetAllDnn9019Method()
+        {
+            return "Hello from GetAllDnn9019Method method";
+
+        }
+
     }
 }
